@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '~> 2.2'
+ruby '~> 3.3'
 
-gem 'sinatra', '>= 2.0.4'
+gem 'sinatra', '~> 4.0'
 gem 'sinatra-contrib'
-
-
+gem 'rackup'
+gem 'puma'
